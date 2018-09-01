@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14105" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EIC-0K-trY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="GroceriesNow Driver" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYt-0w-fZq">
+                                <rect key="frame" x="70" y="119" width="235" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="TGo-Vq-T5z">
+                                <rect key="frame" x="-61" y="210.5" width="512" height="456.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TGo-Vq-T5z" firstAttribute="leading" secondItem="EIC-0K-trY" secondAttribute="leading" constant="-61" id="3J7-Wr-9PM"/>
+                            <constraint firstItem="TGo-Vq-T5z" firstAttribute="bottom" secondItem="yO1-7n-eQZ" secondAttribute="bottom" id="4ZG-h8-Udn"/>
+                            <constraint firstItem="AYt-0w-fZq" firstAttribute="leading" secondItem="yO1-7n-eQZ" secondAttribute="leading" constant="70" id="SSP-NG-Dwk"/>
+                            <constraint firstItem="TGo-Vq-T5z" firstAttribute="top" secondItem="AYt-0w-fZq" secondAttribute="bottom" constant="60" id="VpI-r0-JrN"/>
+                            <constraint firstAttribute="trailing" secondItem="TGo-Vq-T5z" secondAttribute="trailing" constant="-76" id="YYQ-78-iuc"/>
+                            <constraint firstItem="yO1-7n-eQZ" firstAttribute="trailing" secondItem="AYt-0w-fZq" secondAttribute="trailing" constant="70" id="gbs-Cy-8Ba"/>
+                            <constraint firstItem="AYt-0w-fZq" firstAttribute="top" secondItem="yO1-7n-eQZ" secondAttribute="top" constant="99" id="mjr-Yr-0ki"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yO1-7n-eQZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="512" height="512"/>
+    </resources>
+</document>

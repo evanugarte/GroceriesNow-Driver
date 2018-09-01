@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14105" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign InVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SignInVC" customModule="GroceriesNow_Driver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xfL-Cn-LVF">
+                                <rect key="frame" x="101" y="91" width="173" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5qj-xb-27Z">
+                                <rect key="frame" x="100" y="152" width="173" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wti-WI-cJn">
+                                <rect key="frame" x="100" y="209" width="173" height="30"/>
+                                <color key="backgroundColor" red="0.03656947985291481" green="0.49317735433578491" blue="0.94443279504776001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="0.99116331338882446" green="0.99639707803726196" blue="0.99172180891036987" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="logIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LIt-z7-MSf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GroceriesNow Driver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6j-u6-AYm">
+                                <rect key="frame" x="88" y="49" width="198" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.97745424509048462" green="0.9930989146232605" blue="0.97499829530715942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zL2-PZ-mw9">
+                                <rect key="frame" x="100" y="265" width="174" height="30"/>
+                                <color key="backgroundColor" red="0.03656947985291481" green="0.49317735433578491" blue="0.94443279504776001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="0.99116331338882446" green="0.99639707803726196" blue="0.99172180891036987" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XRe-qn-3jk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5qj-xb-27Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="8g6-5N-qis"/>
+                            <constraint firstItem="zL2-PZ-mw9" firstAttribute="top" secondItem="Wti-WI-cJn" secondAttribute="bottom" constant="26" id="97s-LG-0sT"/>
+                            <constraint firstItem="5qj-xb-27Z" firstAttribute="top" secondItem="xfL-Cn-LVF" secondAttribute="bottom" constant="31" id="9UZ-f2-fFO"/>
+                            <constraint firstItem="xfL-Cn-LVF" firstAttribute="top" secondItem="I6j-u6-AYm" secondAttribute="bottom" constant="21" id="BHc-pb-3L0"/>
+                            <constraint firstItem="I6j-u6-AYm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="Kjx-JG-0XS"/>
+                            <constraint firstItem="zL2-PZ-mw9" firstAttribute="top" secondItem="Wti-WI-cJn" secondAttribute="bottom" constant="26" id="O1H-Fe-ZNR"/>
+                            <constraint firstItem="xfL-Cn-LVF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="PHF-Xc-rdm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5qj-xb-27Z" secondAttribute="trailing" constant="102" id="TDK-bO-5tG"/>
+                            <constraint firstItem="xfL-Cn-LVF" firstAttribute="top" secondItem="I6j-u6-AYm" secondAttribute="bottom" constant="21" id="U5A-mL-SXK"/>
+                            <constraint firstItem="Wti-WI-cJn" firstAttribute="top" secondItem="5qj-xb-27Z" secondAttribute="bottom" constant="27" id="Y4T-A0-brI"/>
+                            <constraint firstItem="zL2-PZ-mw9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="can-md-eMa"/>
+                            <constraint firstItem="Wti-WI-cJn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="dya-P1-8GA"/>
+                            <constraint firstItem="I6j-u6-AYm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="eaz-9a-ta6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zL2-PZ-mw9" secondAttribute="trailing" constant="101" id="iCg-Oc-PVK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zL2-PZ-mw9" secondAttribute="bottom" constant="372" id="iTg-Df-nwl"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Wti-WI-cJn" secondAttribute="trailing" constant="20" symbolic="YES" id="j4w-RS-MHA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I6j-u6-AYm" secondAttribute="trailing" constant="89" id="knC-p4-x3H"/>
+                            <constraint firstItem="zL2-PZ-mw9" firstAttribute="width" secondItem="Wti-WI-cJn" secondAttribute="width" constant="1" id="lvw-eZ-F53"/>
+                            <constraint firstItem="5qj-xb-27Z" firstAttribute="top" secondItem="xfL-Cn-LVF" secondAttribute="bottom" constant="31" id="uQJ-rJ-UEc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xfL-Cn-LVF" secondAttribute="trailing" constant="101" id="xxZ-eM-3BF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="xfL-Cn-LVF" id="KUd-Dw-USb"/>
+                        <outlet property="passwordTextField" destination="5qj-xb-27Z" id="pko-f4-GB2"/>
+                        <segue destination="vpo-XR-PZB" kind="show" identifier="DriverVC" id="EXX-bh-HTU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="130.88455772113943"/>
+        </scene>
+        <!--DriverVC-->
+        <scene sceneID="dI2-qQ-U2I">
+            <objects>
+                <viewController id="vpo-XR-PZB" customClass="DriverVC" customModule="GroceriesNow_Driver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gSv-C7-ogy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icl-ep-UdA">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Driver" id="cbK-9m-jBW">
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="ydi-eP-Edl">
+                                            <connections>
+                                                <action selector="logOut:" destination="vpo-XR-PZB" id="DhA-uW-GbY"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Order Details" id="jF6-tx-SyO">
+                                            <connections>
+                                                <action selector="getOrderDetails:" destination="vpo-XR-PZB" id="ccc-B3-hH2"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ghZ-es-4LY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="483"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7i9-3w-Iom">
+                                <rect key="frame" x="119" y="593" width="136" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Set Order Price">
+                                    <color key="titleColor" red="0.046891413629055023" green="0.40979009866714478" blue="0.97162717580795288" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="setOrderPrice:" destination="vpo-XR-PZB" eventType="touchUpInside" id="Tnt-JN-Qbv"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXB-DO-U60" userLabel="Cancel Groceries Btn">
+                                <rect key="frame" x="119" y="555" width="136" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Cancel Groceries">
+                                    <color key="titleColor" red="0.046891413629055023" green="0.40979009866714478" blue="0.97162717580795288" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelGroceries:" destination="vpo-XR-PZB" eventType="touchUpInside" id="pTR-Yi-GNO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7i9-3w-Iom" firstAttribute="width" secondItem="SXB-DO-U60" secondAttribute="width" id="24q-TU-Jb7"/>
+                            <constraint firstItem="7i9-3w-Iom" firstAttribute="top" secondItem="SXB-DO-U60" secondAttribute="bottom" constant="8" id="Fek-d5-q2e"/>
+                            <constraint firstItem="icl-ep-UdA" firstAttribute="trailing" secondItem="siT-z8-Tu2" secondAttribute="trailing" id="Fgz-O9-VsT"/>
+                            <constraint firstItem="ghZ-es-4LY" firstAttribute="top" secondItem="icl-ep-UdA" secondAttribute="bottom" id="IZe-g9-pdT"/>
+                            <constraint firstItem="ghZ-es-4LY" firstAttribute="leading" secondItem="siT-z8-Tu2" secondAttribute="leading" id="IuD-lT-WN8"/>
+                            <constraint firstItem="icl-ep-UdA" firstAttribute="leading" secondItem="siT-z8-Tu2" secondAttribute="leading" id="JGV-nZ-pU3"/>
+                            <constraint firstItem="ghZ-es-4LY" firstAttribute="top" secondItem="icl-ep-UdA" secondAttribute="bottom" id="O0j-zm-G9b"/>
+                            <constraint firstItem="SXB-DO-U60" firstAttribute="top" secondItem="ghZ-es-4LY" secondAttribute="bottom" constant="8" id="OGL-Of-xMU"/>
+                            <constraint firstItem="7i9-3w-Iom" firstAttribute="leading" secondItem="siT-z8-Tu2" secondAttribute="leading" constant="119" id="RVn-U8-07g"/>
+                            <constraint firstItem="SXB-DO-U60" firstAttribute="top" secondItem="ghZ-es-4LY" secondAttribute="bottom" constant="8" id="ZbS-XP-82d"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7i9-3w-Iom" secondAttribute="trailing" constant="20" symbolic="YES" id="ZqX-et-3Ju"/>
+                            <constraint firstItem="icl-ep-UdA" firstAttribute="top" secondItem="siT-z8-Tu2" secondAttribute="top" id="eBT-ma-sz6"/>
+                            <constraint firstItem="siT-z8-Tu2" firstAttribute="bottom" secondItem="SXB-DO-U60" secondAttribute="bottom" constant="82" id="fO2-yz-A4a"/>
+                            <constraint firstItem="siT-z8-Tu2" firstAttribute="bottom" secondItem="7i9-3w-Iom" secondAttribute="bottom" constant="44" id="g9l-Cz-Ptz"/>
+                            <constraint firstItem="ghZ-es-4LY" firstAttribute="trailing" secondItem="siT-z8-Tu2" secondAttribute="trailing" id="mmI-OZ-XgW"/>
+                            <constraint firstItem="siT-z8-Tu2" firstAttribute="trailing" secondItem="SXB-DO-U60" secondAttribute="trailing" constant="120" id="rON-47-1F4"/>
+                            <constraint firstItem="SXB-DO-U60" firstAttribute="leading" secondItem="siT-z8-Tu2" secondAttribute="leading" constant="119" id="wRY-VY-gnq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="siT-z8-Tu2"/>
+                    </view>
+                    <connections>
+                        <outlet property="acceptOrderBtn" destination="SXB-DO-U60" id="UWr-Go-3IK"/>
+                        <outlet property="myMap" destination="ghZ-es-4LY" id="eux-jn-S2y"/>
+                        <outlet property="setPriceBtn" destination="7i9-3w-Iom" id="LEY-7G-Fp8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KVh-N7-luJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="130.88455772113943"/>
+        </scene>
+    </scenes>
+</document>

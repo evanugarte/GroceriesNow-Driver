@@ -7,21 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		201F32FB205F487E00C4B974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F32FA205F487E00C4B974 /* AppDelegate.swift */; };
 		201F32FD205F487E00C4B974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F32FC205F487E00C4B974 /* ViewController.swift */; };
-		201F3300205F487E00C4B974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201F32FE205F487E00C4B974 /* Main.storyboard */; };
 		201F3302205F487E00C4B974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201F3301205F487E00C4B974 /* Assets.xcassets */; };
-		201F3305205F487E00C4B974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201F3303205F487E00C4B974 /* LaunchScreen.storyboard */; };
+		204B25D8212BCC8900739D59 /* StoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B25D7212BCC8800739D59 /* StoreLocation.swift */; };
+		204B25DB212BCCF700739D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204B25D9212BCCF600739D59 /* LaunchScreen.storyboard */; };
+		204B25DE212BCD0B00739D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204B25DC212BCD0B00739D59 /* Main.storyboard */; };
+		204B25E1212BCF9D00739D59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 204B25D1212BCBA100739D59 /* GoogleService-Info.plist */; };
+		20844BDA212BC85F00D3074C /* GroceriesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20844BD6212BC85F00D3074C /* GroceriesHandler.swift */; };
+		20844BDB212BC85F00D3074C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20844BD7212BC85F00D3074C /* Constants.swift */; };
+		20844BDC212BC85F00D3074C /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20844BD8212BC85F00D3074C /* DBProvider.swift */; };
+		20844BDD212BC86000D3074C /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20844BD9212BC85F00D3074C /* AuthProvider.swift */; };
+		20844BE2212BC8A800D3074C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20844BE0212BC8A800D3074C /* SignInVC.swift */; };
+		20844BE3212BC8A800D3074C /* DriverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20844BE1212BC8A800D3074C /* DriverVC.swift */; };
+		2090E0C2212BC42C009A6BEF /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 2090E0C1212BC42C009A6BEF /* Model */; };
+		2090E0C4212BC458009A6BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090E0C3212BC458009A6BEF /* AppDelegate.swift */; };
+		20D78CB1213A57B20079097F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20D78CB3213A57B20079097F /* Info.plist */; };
+		6E649216EC6B607DC33EBBEC /* Pods_GroceriesNow_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADB4C053E955B88B7970149 /* Pods_GroceriesNow_Driver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		201F32F7205F487E00C4B974 /* GroceriesNow Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GroceriesNow Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		201F32FA205F487E00C4B974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		201F32FC205F487E00C4B974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		201F32FF205F487E00C4B974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		201F3301205F487E00C4B974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		201F3304205F487E00C4B974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		201F3306205F487F00C4B974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204B25D1212BCBA100739D59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		204B25D7212BCC8800739D59 /* StoreLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreLocation.swift; path = "GroceriesNow Driver/Plugins/StoreLocation.swift"; sourceTree = SOURCE_ROOT; };
+		204B25DA212BCCF600739D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Model/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		204B25DD212BCD0B00739D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Model/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		204B25DF212BCF0700739D59 /* Sign In Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign In Background.png"; path = "../../../Desktop/Sign In Background.png"; sourceTree = "<group>"; };
+		20844BD6212BC85F00D3074C /* GroceriesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroceriesHandler.swift; path = "../../../../Downloads/drive-download-20180821T040351Z-001/GroceriesHandler.swift"; sourceTree = "<group>"; };
+		20844BD7212BC85F00D3074C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../../../Downloads/drive-download-20180821T040351Z-001/Constants.swift"; sourceTree = "<group>"; };
+		20844BD8212BC85F00D3074C /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBProvider.swift; path = "../../../../Downloads/drive-download-20180821T040351Z-001/DBProvider.swift"; sourceTree = "<group>"; };
+		20844BD9212BC85F00D3074C /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthProvider.swift; path = "../../../../Downloads/drive-download-20180821T040351Z-001/AuthProvider.swift"; sourceTree = "<group>"; };
+		20844BE0212BC8A800D3074C /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInVC.swift; path = "../../../../../../Downloads/drive-download-20180821T040351Z-001/SignInVC.swift"; sourceTree = "<group>"; };
+		20844BE1212BC8A800D3074C /* DriverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverVC.swift; path = "../../../../../../Downloads/drive-download-20180821T040351Z-001/DriverVC.swift"; sourceTree = "<group>"; };
+		2090E0C1212BC42C009A6BEF /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		2090E0C3212BC458009A6BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20D78CB2213A57B20079097F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		20D78CB4213A57B60079097F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		2ADB4C053E955B88B7970149 /* Pods_GroceriesNow_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceriesNow_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EB53B7791C64A5483AE54D /* Pods-GroceriesNow Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceriesNow Driver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceriesNow Driver/Pods-GroceriesNow Driver.debug.xcconfig"; sourceTree = "<group>"; };
+		B981CFF44620AEF2C83A13F7 /* Pods-GroceriesNow Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceriesNow Driver.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroceriesNow Driver/Pods-GroceriesNow Driver.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E649216EC6B607DC33EBBEC /* Pods_GroceriesNow_Driver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,8 @@
 			children = (
 				201F32F9205F487E00C4B974 /* GroceriesNow Driver */,
 				201F32F8205F487E00C4B974 /* Products */,
+				3283C8153E539C9118A1743F /* Pods */,
+				45B63B68D988788B53A14655 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,59 @@
 		201F32F9205F487E00C4B974 /* GroceriesNow Driver */ = {
 			isa = PBXGroup;
 			children = (
-				201F32FA205F487E00C4B974 /* AppDelegate.swift */,
+				20D78CB3213A57B20079097F /* Info.plist */,
+				2090E0C3212BC458009A6BEF /* AppDelegate.swift */,
+				20844BDF212BC88F00D3074C /* Controller */,
+				20844BD5212BC81D00D3074C /* Plugins */,
+				2090E0C1212BC42C009A6BEF /* Model */,
 				201F32FC205F487E00C4B974 /* ViewController.swift */,
-				201F32FE205F487E00C4B974 /* Main.storyboard */,
+				204B25D1212BCBA100739D59 /* GoogleService-Info.plist */,
+				204B25DC212BCD0B00739D59 /* Main.storyboard */,
 				201F3301205F487E00C4B974 /* Assets.xcassets */,
-				201F3303205F487E00C4B974 /* LaunchScreen.storyboard */,
-				201F3306205F487F00C4B974 /* Info.plist */,
+				204B25DF212BCF0700739D59 /* Sign In Background.png */,
+				204B25D9212BCCF600739D59 /* LaunchScreen.storyboard */,
 			);
 			path = "GroceriesNow Driver";
+			sourceTree = "<group>";
+		};
+		20844BD5212BC81D00D3074C /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				20844BD9212BC85F00D3074C /* AuthProvider.swift */,
+				20844BD7212BC85F00D3074C /* Constants.swift */,
+				204B25D7212BCC8800739D59 /* StoreLocation.swift */,
+				20844BD8212BC85F00D3074C /* DBProvider.swift */,
+				20844BD6212BC85F00D3074C /* GroceriesHandler.swift */,
+			);
+			name = Plugins;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		20844BDF212BC88F00D3074C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20844BE1212BC8A800D3074C /* DriverVC.swift */,
+				20844BE0212BC8A800D3074C /* SignInVC.swift */,
+			);
+			name = Controller;
+			path = "New Group/New Group/Controller";
+			sourceTree = "<group>";
+		};
+		3283C8153E539C9118A1743F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32EB53B7791C64A5483AE54D /* Pods-GroceriesNow Driver.debug.xcconfig */,
+				B981CFF44620AEF2C83A13F7 /* Pods-GroceriesNow Driver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45B63B68D988788B53A14655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ADB4C053E955B88B7970149 /* Pods_GroceriesNow_Driver.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 201F3309205F487F00C4B974 /* Build configuration list for PBXNativeTarget "GroceriesNow Driver" */;
 			buildPhases = (
+				919AA5863EB75EA8CDA8244C /* [CP] Check Pods Manifest.lock */,
 				201F32F3205F487E00C4B974 /* Sources */,
 				201F32F4205F487E00C4B974 /* Frameworks */,
 				201F32F5205F487E00C4B974 /* Resources */,
+				D16D5917967B48B3FF6971D5 /* [CP] Embed Pods Frameworks */,
+				415D197F0382139979520FFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,42 +198,121 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				201F3305205F487E00C4B974 /* LaunchScreen.storyboard in Resources */,
 				201F3302205F487E00C4B974 /* Assets.xcassets in Resources */,
-				201F3300205F487E00C4B974 /* Main.storyboard in Resources */,
+				204B25DE212BCD0B00739D59 /* Main.storyboard in Resources */,
+				20D78CB1213A57B20079097F /* Info.plist in Resources */,
+				2090E0C2212BC42C009A6BEF /* Model in Resources */,
+				204B25DB212BCCF700739D59 /* LaunchScreen.storyboard in Resources */,
+				204B25E1212BCF9D00739D59 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		415D197F0382139979520FFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroceriesNow Driver/Pods-GroceriesNow Driver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919AA5863EB75EA8CDA8244C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroceriesNow Driver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16D5917967B48B3FF6971D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GroceriesNow Driver/Pods-GroceriesNow Driver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroceriesNow Driver/Pods-GroceriesNow Driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		201F32F3205F487E00C4B974 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20844BDD212BC86000D3074C /* AuthProvider.swift in Sources */,
+				2090E0C4212BC458009A6BEF /* AppDelegate.swift in Sources */,
+				20844BDA212BC85F00D3074C /* GroceriesHandler.swift in Sources */,
+				20844BDC212BC85F00D3074C /* DBProvider.swift in Sources */,
+				20844BE2212BC8A800D3074C /* SignInVC.swift in Sources */,
 				201F32FD205F487E00C4B974 /* ViewController.swift in Sources */,
-				201F32FB205F487E00C4B974 /* AppDelegate.swift in Sources */,
+				20844BE3212BC8A800D3074C /* DriverVC.swift in Sources */,
+				20844BDB212BC85F00D3074C /* Constants.swift in Sources */,
+				204B25D8212BCC8900739D59 /* StoreLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		201F32FE205F487E00C4B974 /* Main.storyboard */ = {
+		204B25D9212BCCF600739D59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				201F32FF205F487E00C4B974 /* Base */,
+				204B25DA212BCCF600739D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		204B25DC212BCD0B00739D59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204B25DD212BCD0B00739D59 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		201F3303205F487E00C4B974 /* LaunchScreen.storyboard */ = {
+		20D78CB3213A57B20079097F /* Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				201F3304205F487E00C4B974 /* Base */,
+				20D78CB2213A57B20079097F /* Base */,
+				20D78CB4213A57B60079097F /* en */,
 			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+			name = Info.plist;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -278,6 +433,7 @@
 		};
 		201F330A205F487F00C4B974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EB53B7791C64A5483AE54D /* Pods-GroceriesNow Driver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +451,7 @@
 		};
 		201F330B205F487F00C4B974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B981CFF44620AEF2C83A13F7 /* Pods-GroceriesNow Driver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

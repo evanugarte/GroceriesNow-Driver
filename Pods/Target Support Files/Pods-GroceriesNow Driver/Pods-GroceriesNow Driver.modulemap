@@ -1,0 +1,6 @@
+framework module Pods_GroceriesNow_Driver {
+  umbrella header "Pods-GroceriesNow Driver-umbrella.h"
+
+  export *
+  module * { export * }
+}
